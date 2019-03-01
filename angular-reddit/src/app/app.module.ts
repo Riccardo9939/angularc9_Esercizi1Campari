@@ -1,10 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
-
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -12,7 +10,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ArticleComponent
   ],
   imports: [
-    BrowserModule, NgbModule 
+    BrowserModule, NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
